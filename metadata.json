@@ -1,0 +1,6 @@
+{
+  "name": "Calculadora de Laboratorio Bioquímico",
+  "description": "Calculadora profesional para bioquímicos y personal de laboratorio de análisis clínicos con fórmulas de hematología, química clínica, hormonas, gases arteriales, electrolitos, lípidos, enzimas, conversor de unidades y valores de referencia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
