@@ -1,6 +1,6 @@
 {
-  "name": "Calculadora de Laboratorio Bioquímico",
-  "description": "Calculadora profesional para bioquímicos y personal de laboratorio de análisis clínicos con fórmulas de hematología, química clínica, hormonas, gases arteriales, electrolitos, lípidos, enzimas, conversor de unidades y valores de referencia.",
+  "name": "Calculadora de Dr Martin W.",
+  "description": "Calculadora profesional de bioquímica y laboratorio clínico de Dr Martin W. con 15 especialidades, fórmulas médicas estandarizadas, conversor de unidades e informes clínicos.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

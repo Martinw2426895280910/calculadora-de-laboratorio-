@@ -54,15 +54,15 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
               <div>
                 <div className="flex items-center gap-2">
-                  <h1 className="text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
-                    LabBioquímica
-                    <span className="text-xs font-semibold px-2 py-0.5 rounded-full bg-sky-500/20 text-sky-300 border border-sky-500/30">
-                      PRO
+                  <h1 className="text-base sm:text-lg font-bold tracking-tight text-white flex items-center gap-1.5">
+                    <span>Calculadora de Dr Martin W.</span>
+                    <span className="text-[10px] font-semibold px-2 py-0.5 rounded-full bg-sky-500/20 text-sky-300 border border-sky-500/30">
+                      BIOQUÍMICA PRO
                     </span>
                   </h1>
                 </div>
-                <p className="text-xs text-slate-400">
-                  Calculadora y Utilidades para Laboratorio Clínico
+                <p className="text-[11px] text-slate-400">
+                  Laboratorio Clínico & Análisis Diagnóstico
                 </p>
               </div>
             </div>

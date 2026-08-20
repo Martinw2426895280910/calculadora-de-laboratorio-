@@ -44,11 +44,12 @@ export const PatientReportModal: React.FC<PatientReportModalProps> = ({
 
   const handleCopyText = () => {
     let report = `======================================================\n`;
-    report += `INFORME DE CÁLCULOS Y ANÁLISIS DE LABORATORIO CLÍNICO\n`;
+    report += `INFORME DE LABORATORIO CLÍNICO & BIOQUÍMICA MÉDICA\n`;
+    report += `Calculadora de Dr Martin W.\n`;
     report += `======================================================\n`;
     report += `Fecha: ${new Date().toLocaleDateString()} ${new Date().toLocaleTimeString()}\n`;
     report += `Paciente: ${patient.name || 'No especificado'}\n`;
-    report += `Edad: ${patient.age || 'N/A'} años | Sexo: ${patient.gender} | ID/Historia: ${patient.idNumber || 'N/A'}\n`;
+    report += `Edad: ${patient.age || 'N/A'} años | Sexo: ${patient.gender === 'male' ? 'Masculino' : 'Femenino'} | ID/Historia: ${patient.idNumber || 'N/A'}\n`;
     report += `Peso: ${patient.weight || 'N/A'} kg | Talla: ${patient.height || 'N/A'} cm\n`;
     report += `------------------------------------------------------\n\n`;
 
@@ -85,7 +86,7 @@ export const PatientReportModal: React.FC<PatientReportModalProps> = ({
                 Informe Analítico de Laboratorio Clínico
               </h3>
               <p className="text-xs text-slate-400">
-                {savedCalculations.length} cálculos registrados para este paciente
+                Calculadora de Dr Martin W. • {savedCalculations.length} cálculos registrados
               </p>
             </div>
           </div>
